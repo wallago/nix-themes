@@ -5,14 +5,14 @@ let
     name: source:
     let
       schemeTypes = [
-        "content"
-        "expressive"
-        "fidelity"
-        "fruit-salad"
-        "monochrome"
-        "neutral"
-        "rainbow"
-        "tonal-spot"
+        "content" # Brighter and more vivid color usage
+        "expressive" # Bolder and more vibrant, multi-colored scheme
+        "fidelity" # Attempts to stay as true as possible to the original input color
+        "fruit-salad" # Playful and colorful — a fun, varied scheme based loosely on fruit colors
+        "monochrome" # Pure grayscale scheme — no hue, just tone
+        "neutral" # Grayish versions of the base palette
+        "rainbow" # Distributes hues across the color spectrum, evenly spaced
+        "tonal-spot" # One "seed" color with tonal variations
       ];
       isHexColor = c: lib.isString c && (builtins.match "#([0-9a-fA-F]{3}){1,2}" c) != null;
 
