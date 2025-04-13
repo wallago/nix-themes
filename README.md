@@ -55,7 +55,7 @@ You can import this flake into your own configuration like so:
 ```nix
 {
   inputs.themes = {
-    url = "github:misterio77/themes";
+    url = "github:YvesCousteau/nix-themes";
     inputs.systems.follows = "systems";
   };
 
