@@ -148,3 +148,17 @@ This ensures only valid derivations from packages are sent to Hydra, and it avoi
 ## 🤝 Acknowledgements
 
 This flake is inspired by the excellent work done in the [Misterio77/themes](https://github.com/Misterio77/themes) repository. Special thanks to the contributors of [matugen](https://github.com/InioX/matugen) for making color scheme generation easy.
+
+## 📜 Wallpapers
+
++ [village-drawing-light](https://i.redd.it/18e6s5qy2bte1.png)
++ [sunset-forest-drawing-dark](https://i.redd.it/rknp4tfe3hyd1.jpeg)
++ [pipes-drawing-light](https://i.redd.it/qu6gsbfpzk1d1.png)
++ [snowing-train-drawing-dark](https://i.redd.it/7tnlkhjvjs8b1.jpg)
++ [fuji-landscape-drawing-light](https://i.redd.it/686p8bxm8twd1.png)
++ [jeep-beach-drawing-light](https://i.redd.it/8o1dlanrjp7d1.png)
++ [raining-night-house-drawing-dark](https://i.redd.it/dzm17cv8lwzd1.png)
++ [purple-night-porsche-drawing-dark](https://i.redd.it/khnhze4fgf0d1.png)
++ [numerical-earth-drawing-dark](https://i.redd.it/9rbfo0r5f0ue1.jpeg)
+
+
