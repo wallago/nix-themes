@@ -158,13 +158,9 @@ This flake is inspired by the excellent work done in the [Misterio77/themes](htt
 
 ## 📜 Wallpapers
 
-- [village-drawing-light](https://i.redd.it/18e6s5qy2bte1.png)
-- [sunset-forest-drawing-dark](https://i.redd.it/rknp4tfe3hyd1.jpeg)
-- [pipes-drawing-light](https://i.redd.it/qu6gsbfpzk1d1.png)
-- [snowing-train-drawing-dark](https://i.redd.it/7tnlkhjvjs8b1.jpg)
-- [fuji-landscape-drawing-light](https://i.redd.it/686p8bxm8twd1.png)
-- [jeep-beach-drawing-light](https://i.redd.it/8o1dlanrjp7d1.png)
-- [raining-night-house-drawing-dark](https://i.redd.it/dzm17cv8lwzd1.png)
 - [purple-night-porsche-drawing-dark](https://i.redd.it/khnhze4fgf0d1.png)
-- [numerical-earth-drawing-dark](https://i.redd.it/9rbfo0r5f0ue1.jpeg)
-- [mystic-forest-drawing-light](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fmqc0ncthor0f1.png)
+- [pipes-drawing-light](https://i.redd.it/qu6gsbfpzk1d1.png)
+- [green-forest-light](https://i.redd.it/lfxgnmovlsze1.png)
+- [fuji-landscape-drawing-light](https://i.redd.it/686p8bxm8twd1.png)
+- [raining-night-house-drawing-dark](https://i.redd.it/dzm17cv8lwzd1.png)
+- [jeep-beach-drawing-light](https://i.redd.it/8o1dlanrjp7d1.png)

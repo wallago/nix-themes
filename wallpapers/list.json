@@ -1,21 +1,9 @@
 [
   {
     "ext": "png",
-    "id": "lfxgnmovlsze1",
-    "name": "numerical-earth-drawing-dark",
-    "sha256": "0x9n8xqy82k3yh85hm5pv10dy52g57i7gdb372myljrmppd6q713"
-  },
-  {
-    "ext": "png",
-    "id": "18e6s5qy2bte1",
-    "name": "village-drawing-light",
-    "sha256": "0mskf8imyxcxcanqv83qqjqxq5hl5kfxlwbbgsf7kabaijfic55i"
-  },
-  {
-    "ext": "jpeg",
-    "id": "rknp4tfe3hyd1",
-    "name": "sunset-forest-drawing-dark",
-    "sha256": "0qk5yc5l2v1mm6rlr7djmig16cm9snghzy3bjz6d5nbgfkm8sc8q"
+    "id": "khnhze4fgf0d1",
+    "name": "purple-night-porsche-drawing-dark",
+    "sha256": "1ysb3s686ah5869kbpphjvx6faczfxmp2fv5bgzcy40dywpfva8b"
   },
   {
     "ext": "png",
@@ -24,10 +12,10 @@
     "sha256": "0w6045hs2gzclwiir4i83psms6sblxrvh8d5xwh9xwrp2bb1qyq4"
   },
   {
-    "ext": "jpg",
-    "id": "7tnlkhjvjs8b1",
-    "name": "snowing-train-drawing-dark",
-    "sha256": "1h6n0pqdha0ccgb4di4nxrkn9hzxanzwhjqc07imarar3549q14q"
+    "ext": "png",
+    "id": "lfxgnmovlsze1",
+    "name": "green-forest-light",
+    "sha256": "0x9n8xqy82k3yh85hm5pv10dy52g57i7gdb372myljrmppd6q713"
   },
   {
     "ext": "png",
@@ -37,26 +25,14 @@
   },
   {
     "ext": "png",
-    "id": "8o1dlanrjp7d1",
-    "name": "jeep-beach-drawing-light",
-    "sha256": "12v1jk0q5ilf0604kxl8kq7ji8ljlyn5lgrvgq29h4yl1dsx4hv7"
-  },
-  {
-    "ext": "png",
     "id": "dzm17cv8lwzd1",
     "name": "raining-night-house-drawing-dark",
     "sha256": "1pi5cnwlvrvwsgwg570kb1nwl87a3a55vj7yngsrzgvcv0gl3b7s"
   },
   {
     "ext": "png",
-    "id": "khnhze4fgf0d1",
-    "name": "purple-night-porsche-drawing-dark",
-    "sha256": "1ysb3s686ah5869kbpphjvx6faczfxmp2fv5bgzcy40dywpfva8b"
-  },
-  {
-    "ext": "png",
-    "id": "mqc0ncthor0f1",
-    "name": "mystic-forest-drawing-light",
-    "sha256": "0kv0zbs9f9wwjkk9j1vdy6w2fy902l6zfp7645fvyaahwa5pmcd9"
+    "id": "8o1dlanrjp7d1",
+    "name": "jeep-beach-drawing-light",
+    "sha256": "12v1jk0q5ilf0604kxl8kq7ji8ljlyn5lgrvgq29h4yl1dsx4hv7"
   }
 ]
