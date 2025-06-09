@@ -1,12 +1,10 @@
 { pkgs ? import <nixpkgs> { } }:
-let
-  lib = pkgs.lib;
-in
+let lib = pkgs.lib;
 
-pkgs.mkShell {
+in pkgs.mkShell {
   buildInputs = [ pkgs.matugen pkgs.jq ];
 
-  wallpapers = "./wallpapers.json";
+  wallpapers = "./wallpapers/list.json";
   wallpapersDownloadDir = "./wallpapers/downloaded";
   colorschemeResultDir = "./colorschemes/generated";
   matugenConfig = "./config.toml";

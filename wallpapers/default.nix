@@ -1,11 +1,5 @@
 { pkgs }:
-pkgs.lib.listToAttrs (
-  map (wallpaper: {
-    inherit (wallpaper) name;
-    value = pkgs.fetchurl {
-      inherit (wallpaper) sha256;
-      name = "${wallpaper.name}.${wallpaper.ext}";
-      url = "https://i.redd.it/${wallpaper.id}.${wallpaper.ext}";
-    };
-  }) (pkgs.lib.importJSON ./list.json)
-)
+pkgs.lib.listToAttrs (map (wallpaper: {
+  inherit (wallpaper) name;
+  value = ./. + "/downloaded/${wallpaper.name}.${wallpaper.ext}";
+}) (pkgs.lib.importJSON ./list.json))

@@ -12,9 +12,26 @@
       packages = forEachSystem (system:
         let pkgs = nixpkgs.legacyPackages.${system};
         in rec {
-          selectColorscheme = import ./colorschemes/select-colorscheme.nix {
-            inherit pkgs;
-          };
+
+          selectColorscheme =
+            import ./colorschemes/select-colorscheme.nix { inherit pkgs; };
+
+          wallpapers = import ./wallpapers { inherit pkgs; };
+          # # Creates a link farm (a directory with symbolic links) for all wallpapers.
+          # allWallpapers =
+          #   pkgs.linkFarmFromDrvs "wallpapers" (pkgs.lib.attrValues wallpapers);
+
+          # colorschemes = import ./colorschemes {
+          #   inherit pkgs wallpapers generateColorscheme;
+          # };
+
+          # # Creates a link farm for all color schemes
+          # allColorschemes = let
+          #   # This is here to help us keep IFD cached (hopefully)
+          #   combined = pkgs.writeText "colorschemes.json" (builtins.toJSON
+          #     (pkgs.lib.mapAttrs (_: drv: drv.imported) colorschemes));
+          # in pkgs.linkFarmFromDrvs "colorschemes"
+          # (pkgs.lib.attrValues colorschemes ++ [ combined ]);
         });
       # Filters the packages to include only those that are derivations
       hydraJobs = nixpkgs.lib.mapAttrs

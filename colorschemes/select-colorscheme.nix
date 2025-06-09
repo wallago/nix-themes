@@ -4,7 +4,8 @@ let
   selectColorscheme = wallpaper: type:
     let
       wallpaperBase = builtins.baseNameOf (toString wallpaper);
-      nameNoExt = builtins.replaceStrings [ ".png" ] [ "" ] wallpaperBase;
+      nameNoExt = builtins.replaceStrings [ ".png" ".jpg" ".jpeg" ] [ "" "" "" ]
+        wallpaperBase;
       file = "${schemesDir}/${nameNoExt}-${type}.json";
     in pkgs.runCommand "select-colorscheme" {
       passthru = {
